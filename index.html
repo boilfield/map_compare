@@ -57,8 +57,9 @@
     }).addTo(map);
 
 // Full Dhaka City : https://raw.githubusercontent.com/mapbd/dhaka/main/tiles/{z}/{x}/{y}.png
+// https://raw.githubusercontent.com/mapbd/dhaka/main/gtiles/{z}/{x}/{y}.png        
 //        old/{z}/{x}/{y}.png
-    var stamenLayer = L.tileLayer('https://raw.githubusercontent.com/mapbd/dhaka/main/gtiles/{z}/{x}/{y}.png', {
+    var stamenLayer = L.tileLayer('old/{z}/{x}/{y}.png', {
         attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors',
         minZoom: 1,
         maxZoom: 19
